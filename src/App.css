@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+.theHeader{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: whitesmoke;
+  position: absolute;
+  
+}
+
+.space{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.center{
+  width: 40vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+#oppButton{
+  width: 8vw;
+  height: 5vh;
+  background-color: rgb(16, 69, 90);
+  border: rgb(16, 69, 90);
+  border-radius: 1vh;
+}
+.holder{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 110vh;
+  width: 100%;
+  background-image: url(https://i.imgur.com/Oc7sGZd.jpg);
+}
+.fighter{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 15px;
+  height: 75vh;
+  width: 20vw;
+}
+.library{
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  overflow-y: scroll;
+  width: 20vw;
+  border-radius: 16px;
+
+}
+.stored{
+  height: 20vh;
+  width: 15vw;
+  background-color: rgb(18, 20, 20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.tight{
+  height: 300px;
+}
+.challenger{
+  height: 250px;
+  width: 200px;background-color: whitesmoke;
+  
+  border-radius: 10px;
+}
+.currentPlayer{
+  height: 300px;
+  width: 300px;
+}
+.storedCharacter{
+  height: 50px;
+  width: 50px;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+
+*::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
